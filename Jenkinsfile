@@ -4,7 +4,7 @@ pipeline {
 
     stages {
        
-        
+       /* 
         stage('MVN CLEAN') {
             steps {
                
@@ -15,7 +15,7 @@ pipeline {
  
                       }
                    }        
-         }
+         }*/
           stage('MVN compile') {
             steps {
                
